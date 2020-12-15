@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="description" content="" />
+    <meta name="author" content="" />
+    <title>consent form</title>
+
+    <!-- Font Icon -->
+    <link rel="stylesheet" href="fonts/material-icon/css/material-design-iconic-font.min.css">
+    
+
+    <!-- Main css -->
+    <link rel="stylesheet" href="assets/css/triage.css">
+    <link rel="stylesheet" href="assets/css/style3.css">
+    
+    
+</head>
+<body>
+                		<!-- Main Wrapper -->
+		<div class="main-wrapper">
+		
+			<!-- Header -->
+			<header class="header">
+				<nav class="navbar navbar-expand-lg header-nav">
+					<div class="navbar-header">
+						<a id="mobile_btn" href="javascript:void(0);">
+							<span class="bar-icon">
+								<span></span>
+								<span></span>
+								<span></span>
+							</span>
+						</a>
+						<a href="dashboard.html" class="navbar-brand logo">
+							<img src="assets/images/logo.svg" class="img-fluid" alt="Logo">
+						</a>
+					</div>
+					<div class="main-menu-wrapper">
+						<div class="menu-header">
+							<a href="index.html" class="menu-logo">
+								<img src="assets/img/logo.svg" class="img-fluid" alt="Logo">
+							</a>
+							<a id="menu_close" class="menu-close" href="javascript:void(0);">
+								<i class="fas fa-times"></i>
+							</a>
+						</div>
+						<ul class="main-nav">
+							<li>
+								<a href="index.html">Home</a>
+							</li>
+							
+								
+							<li class="has-submenu">
+								<a href="#">Go To <i class="fas fa-chevron-down"></i></a>
+								<ul class="submenu">
+                                    <li><a href="dashboard.html">Home</a></li>
+                                    <li><a href="dashboard.html">Dashboard</a></li>
+									<li><a href="triage.html">triage</a></li>
+									<li><a href="consent.html">Consent</a></li>
+									<li><a href="patients.html">Patient list</a></li>
+
+							</li>
+						
+						</ul>	 
+					</div>		 
+					<ul class="nav header-navbar-rht">
+						
+						<li class="nav-item dropdown has-arrow">
+                            <a href="#" class="dropdown-toggle nav-link" data-toggle="dropdown">
+                                <span class="user-img"><img class="rounded-circle" src="assets/images/profiles/avatar-01.jpg" width="31" alt="Ryan Taylor"></span>
+                            </a>
+                            <div class="dropdown-menu">
+                                <div class="user-header">
+                                    <div class="avatar avatar-sm">
+                                        <img src="assets/images/profiles/avatar-01.jpg" alt="User Image" class="avatar-img rounded-circle">
+                                    </div>
+                                    
+                                </div>
+        
+                                <a class="dropdown-item" href="login2.html">Logout</a>
+                            </div>
+                        </li>
+					</ul>
+				</nav>
+			</header>
+      
+      <div class="content success-page-cont">
+				<div class="container-fluid">
+
+            <!-- /Page Content -->
+            <div class="signup-form">
+              <form method="POST" class="register-form" id="register-form">
+                 
+                  <div class="container">
+                      <div class="row">
+                        <div class="col-12">
+                          <div class="form-input">
+                              <label for="Respiratory_rate" class="required">Informed consent</label>
+                          <table class="table table-bordered">
+                            <thead>
+                              <tr>
+                                <th scope="col">Details</th>
+                                <th scope="col">Yes</th>
+                                <th scope="col">No</th>
+                              </tr>
+                            </thead>
+                            <tbody>
+                              <tr>
+                                <td> I give my consent to have pyschiatric treatment done on me or my child(ren)
+                                  in this time of the covid-19 
+                                </td>
+                                <td>
+                                    <input type="checkbox" class="custom-control-input" id="customCheck1" >
+                                    <label class="custom-control-label" for="customCheck1"></label>
+                                </td>
+                                <td>
+                                  <input type="checkbox" class="custom-control-input" id="customCheck1">
+                                    <label class="custom-control-label" for="customCheck1"></label>
+                                </td>
+                              </tr>
+                              <tr>
+                                <td>I am aware that the virus can be transmitted through contact with contaminatted surfaces
+                                </td>
+                                <td>
+                                  <input type="checkbox" class="custom-control-input" id="customCheck1" >
+                                  <label class="custom-control-label" for="customCheck1"></label>
+                              </td>
+                              <td>
+                                <input type="checkbox" name="radiobutton" id="">
+                                  <label class="custom-control-label" for="customCheck1"></label>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td> I recognize that the clinic is adhering to strict infection control
+                                protocols for my safety
+                              </td>
+                              <td>
+                                  <input type="checkbox" class="custom-control-input" id="customCheck1" >
+                                  <label class="custom-control-label" for="customCheck1"></label>
+                              </td>
+                              <td>
+                                <input type="checkbox" class="custom-control-input" id="customCheck1">
+                                  <label class="custom-control-label" for="customCheck1"></label>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>i also give my conset that in accordance to global health guidelines
+                                  my identity shall be revealed to aid in contact tracing
+                                </td>
+                                <td>
+                                    <input type="checkbox" class="custom-control-input" id="customCheck1">
+                                    <label class="custom-control-label" for="customCheck1"></label>
+                                </td>
+                                <td>
+                                  <input type="checkbox" class="custom-control-input" id="customCheck1" checked>
+                                    <label class="custom-control-label" for="customCheck1"></label>
+                                </td>
+                              </tr>
+                          </tbody>
+                      </table>
+                    </div>
+                  </div>
+                </div>
+              </div>
+             
+                  <div class="form-submit">
+                      <input type="submit" value="Submit" class="submit" id="submit" name="submit" />
+                      
+                  </div>
+              </form>
+          </div>
+				
+					
+					
+				</div>
+			</div>		
+            </div>
+        </div>
+
+    </div>
+
+    <!-- JS -->
+    <script src="vendor/jquery/jquery.min.js"></script>
+    <script src="vendor/wnumb/wNumb.js"></script>
+    <script src="vendor/jquery-validation/dist/jquery.validate.min.js"></script>
+    <script src="vendor/jquery-validation/dist/additional-methods.min.js"></script>
+    <script src="./src/bootstrap-input-spinner.js"></script>
+
+   
+    <script src="js/main.js"></script>
+</body>
+</html>

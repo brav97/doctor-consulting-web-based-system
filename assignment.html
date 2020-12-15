@@ -1,0 +1,349 @@
+<!DOCTYPE html>
+<html lang="en">
+    
+
+<head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=0">
+        <title>Assignment to staff</title>
+		
+		
+		<!-- Bootstrap CSS -->
+        <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+		
+		<!-- Fontawesome CSS -->
+        <link rel="stylesheet" href="assets/css/font-awesome.min.css">
+		
+		<!-- Feathericon CSS -->
+        <link rel="stylesheet" href="assets/css/feathericon.min.css">
+		
+		<!-- Datatables CSS -->
+		<link rel="stylesheet" href="assets/plugins/datatables/datatables.min.css">
+		
+		<!-- Main CSS -->
+        <link rel="stylesheet" href="assets/css/style3.css">
+		
+		
+    </head>
+    <body>
+	
+		<!-- Main Wrapper -->
+        <!-- Main Wrapper -->
+		<div class="main-wrapper">
+		
+			<!-- Header -->
+			<header class="header">
+				<nav class="navbar navbar-expand-lg header-nav">
+					<div class="navbar-header">
+						<a id="mobile_btn" href="javascript:void(0);">
+							<span class="bar-icon">
+								<span></span>
+								<span></span>
+								<span></span>
+							</span>
+						</a>
+						<a href="dashboard.html" class="navbar-brand logo">
+							<img src="assets/images/logo.svg" class="img-fluid" alt="Logo">
+						</a>
+					</div>
+					<div class="main-menu-wrapper">
+						<div class="menu-header">
+							<a href="index.html" class="menu-logo">
+								<img src="assets/img/logo.svg" class="img-fluid" alt="Logo">
+							</a>
+							<a id="menu_close" class="menu-close" href="javascript:void(0);">
+								<i class="fas fa-times"></i>
+							</a>
+						</div>
+						<ul class="main-nav">
+							<li>
+								<a href="index.html">Home</a>
+							</li>
+							
+								
+							<li class="has-submenu">
+								<a href="#">Go To <i class="fas fa-chevron-down"></i></a>
+								<ul class="submenu">
+                                    <li><a href="dashboard.html">Home</a></li>
+                                    <li><a href="dashboard.html">Dashboard</a></li>
+									<li><a href="triage.html">triage</a></li>
+									<li><a href="consent.html">Consent</a></li>
+									<li><a href="patients.html">Patient list</a></li>
+									<li><a href="office booking.html">Office booking</a></li>
+
+							</li>
+							<li class="has-submenu">
+								<a href="#">Online meetings <i class="fas fa-chevron-down"></i></a>
+								<ul class="submenu">
+									<li class="has-submenu">
+										<a href="voice-call.html">Voice call</a>
+										
+									</li>
+						
+						</ul>	 
+					</div>		 
+					<ul class="nav header-navbar-rht">
+						
+						<li class="nav-item dropdown has-arrow">
+                            <a href="#" class="dropdown-toggle nav-link" data-toggle="dropdown">
+                                <span class="user-img"><img class="rounded-circle" src="assets/images/profiles/avatar-01.jpg" width="31" alt="Ryan Taylor"></span>
+                            </a>
+                            <div class="dropdown-menu">
+                                <div class="user-header">
+                                    <div class="avatar avatar-sm">
+                                        <img src="assets/images/profiles/avatar-01.jpg" alt="User Image" class="avatar-img rounded-circle">
+                                    </div>
+                                    
+                                </div>
+        
+                                <a class="dropdown-item" href="login2.html">Logout</a>
+                            </div>
+                        </li>
+					</ul>
+				</nav>
+			<!-- /Header -->
+		
+			
+			<!-- Page Wrapper -->
+            <div class="page-wrapper">
+                <div class="content container-fluid">
+				
+					<!-- Page Header -->
+					<div class="page-header">
+						<div class="row">
+							<div class="col-sm-12">
+								<h3 class="page-title">List of Doctors</h3>
+								<ul class="breadcrumb">
+									<li class="breadcrumb-item"><a href="dashboard.html">Dashboard</a></li>
+									<li class="breadcrumb-item"><a href="javascript:(0);">Users</a></li>
+									<li class="breadcrumb-item active">Doctor</li>
+								</ul>
+							</div>
+						</div>
+					</div>
+					<!-- /Page Header -->
+					
+					<div class="row">
+						<div class="col-sm-12">
+							<div class="card">
+								<div class="card-body">
+									<div class="table-responsive">
+										<table class="datatable table table-hover table-center mb-0">
+											<thead>
+												<tr>
+													<th>Doctor Name</th>
+													<th>Room Number </th>
+	
+													<th>Account Status</th>
+													
+												</tr>
+											</thead>
+											<tbody>
+												<tr>
+													<td>
+														<h2 class="table-avatar">
+															<a href=" office booking.html" class="avatar avatar-sm mr-2"><img class="avatar-img rounded-circle" src="assets/images/doctors/doctor-thumb-01.jpg" alt="User Image"></a>
+															<a href=" office booking.html">Dr. Elvis Magotswe</a>
+														</h2>
+													</td>
+													<td>4l</td>
+													
+													
+													
+													<td>
+														<div class="status-toggle">
+															<input type="checkbox" id="status_1" class="check" checked>
+															<label for="status_1" class="checktoggle">checkbox</label>
+														</div>
+													</td>
+												</tr>
+												<tr>
+													<td>
+														<h2 class="table-avatar">
+															<a href=" office booking.html" class="avatar avatar-sm mr-2"><img class="avatar-img rounded-circle" src="assets/images/doctors/doctor-thumb-02.jpg" alt="User Image"></a>
+															<a href="office booking.html">Dr. Lillian Irungu</a>
+														</h2>
+													</td>
+													<td>102</td>
+												
+													
+													<td>
+														<div class="status-toggle">
+															<input type="checkbox" id="status_1" class="check" checked>
+															<label for="status_1" class="checktoggle">checkbox</label>
+														</div>
+													</td>
+												</tr>
+												<tr>
+													<td>
+														<h2 class="table-avatar">
+															<a href="office booking.html" class="avatar avatar-sm mr-2"><img class="avatar-img rounded-circle" src="assets/images/doctors/doctor-thumb-03.jpg" alt="User Image"></a>
+															<a href="office booking.html">Dr. Fred Ondieki</a>
+														</h2>
+													</td>
+													<td>103</td>
+													
+						
+													
+													<td>
+														<div class="status-toggle">
+															<input type="checkbox" id="status_1" class="check" checked>
+															<label for="status_1" class="checktoggle">checkbox</label>
+														</div>
+													</td>
+												</tr>
+												<tr>
+													<td>
+														<h2 class="table-avatar">
+															<a href="office booking.html" class="avatar avatar-sm mr-2"><img class="avatar-img rounded-circle" src="assets/images/doctors/doctor-thumb-04.jpg" alt="User Image"></a>
+															<a href="office booking.html">Dr. Ian Chole</a>
+														</h2>
+													</td>
+													<td>104</td>
+													
+												
+													
+													<td>
+														<div class="status-toggle">
+															<input type="checkbox" id="status_1" class="check" checked>
+															<label for="status_1" class="checktoggle">checkbox</label>
+														</div>
+													</td>
+												</tr>
+												<tr>
+													<td>
+														<h2 class="table-avatar">
+															<a href="office booking.html" class="avatar avatar-sm mr-2"><img class="avatar-img rounded-circle" src="assets/images/doctors/doctor-thumb-05.jpg" alt="User Image"></a>
+															<a href="office booking.html">Dr. Marvin Kimani</a>
+														</h2>
+													</td>
+													<td>105</td>
+													
+											
+													
+													<td>
+														<div class="status-toggle">
+															<input type="checkbox" id="status_1" class="check" checked>
+															<label for="status_1" class="checktoggle">checkbox</label>
+														</div>
+													</td>
+												</tr>
+												<tr>
+													<td>
+														<h2 class="table-avatar">
+															<a href="office booking.html" class="avatar avatar-sm mr-2"><img class="avatar-img rounded-circle" src="assets/images/doctors/doctor-thumb-06.jpg" alt="User Image"></a>
+															<a href="office booking.html">Dr. Katharine Muthusi</a>
+														</h2>
+													</td>
+													<td>106</td>
+													
+													<td>
+														<div class="status-toggle">
+															<input type="checkbox" id="status_1" class="check" checked>
+															<label for="status_1" class="checktoggle">checkbox</label>
+														</div>
+													</td>
+												</tr>
+												<tr>
+													<td>
+														<h2 class="table-avatar">
+															<a href="office booking.html" class="avatar avatar-sm mr-2"><img class="avatar-img rounded-circle" src="assets/images/doctors/doctor-thumb-07.jpg" alt="User Image"></a>
+															<a href="office booking.html">Dr. Linda Wanjiku</a>
+														</h2>
+													</td>
+													<td>106</td>
+													
+													
+													<td>
+														<div class="status-toggle">
+															<input type="checkbox" id="status_1" class="check" checked>
+															<label for="status_1" class="checktoggle">checkbox</label>
+														</div>
+													</td>
+												</tr>
+												<tr>
+													<td>
+														<h2 class="table-avatar">
+															<a href="office booking.html" class="avatar avatar-sm mr-2"><img class="avatar-img rounded-circle" src="assets/images/doctors/doctor-thumb-08.jpg" alt="User Image"></a>
+															<a href="office booking.html">Dr. Paul Timothy</a>
+														</h2>
+													</td>
+													<td>107</td>
+			
+													
+													<td>
+														<div class="status-toggle">
+															<input type="checkbox" id="status_1" class="check" checked>
+															<label for="status_1" class="checktoggle">checkbox</label>
+														</div>
+													</td>
+												</tr>
+												<tr>
+													<td>
+														<h2 class="table-avatar">
+															<a href="office booking.html" class="avatar avatar-sm mr-2"><img class="avatar-img rounded-circle" src="assets/images/doctors/doctor-thumb-09.jpg" alt="User Image"></a>
+															<a href="office booking.html">Dr. John Calvin</a>
+														</h2>
+													</td>
+													<td>108</td>
+													
+													<td>
+														<div class="status-toggle">
+															<input type="checkbox" id="status_1" class="check" checked>
+															<label for="status_1" class="checktoggle">checkbox</label>
+														</div>
+													</td>
+												</tr>
+												<tr>
+													<td>
+														<h2 class="table-avatar">
+															<a href="office booking.html" class="avatar avatar-sm mr-2"><img class="avatar-img rounded-circle" src="assets/images/doctors/doctor-thumb-10.jpg" alt="User Image"></a>
+															<a href="office booking.html">Dr. Olga Barlow</a>
+														</h2>
+													</td>
+													<td>109</td>
+													
+													
+													<td>
+														<div class="status-toggle">
+															<input type="checkbox" id="status_1" class="check" checked>
+															<label for="status_1" class="checktoggle">checkbox</label>
+														</div>
+													</td>
+												</tr>
+											</tbody>
+										</table>
+									</div>
+								</div>
+							</div>
+						</div>			
+					</div>
+					
+				</div>			
+			</div>
+			<!-- /Page Wrapper -->
+		
+        </div>
+		<!-- /Main Wrapper -->
+		
+		<!-- jQuery -->
+        <script src="assets/js/jquery-3.2.1.min.js"></script>
+		
+		<!-- Bootstrap Core JS -->
+        <script src="assets/js/popper.min.js"></script>
+        <script src="assets/js/bootstrap.min.js"></script>
+		
+		<!-- Slimscroll JS -->
+        <script src="assets/plugins/slimscroll/jquery.slimscroll.min.js"></script>
+		
+		<!-- Datatables JS -->
+		<script src="assets/plugins/datatables/jquery.dataTables.min.js"></script>
+		<script src="assets/plugins/datatables/datatables.min.js"></script>
+		
+		<!-- Custom JS -->
+		<script  src="assets/js/script.js"></script>
+		
+    </body>
+
+
+</html>
